@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 77px;
+  position: relative;
+  z-index: 100;
+}
+.header__flex-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__logo {
+  height: 50%;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__link {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 1000;
+  padding: 5px;
+  text-decoration: none;
+  margin: 10px;
+}
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.main {
+  margin-top: -77px;
+}
+.main__banner {
+  background-color: #111;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.main__banner-svg {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 60%;
+}
+.main__div-text {
+  background-color: white;
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__div-text svg {
+  position: absolute;
+  transform: rotate(270deg);
+  right: -490px;
+}
+.main__texth1 {
+  font-size: 3em;
+  font-weight: 1000;
+}
+.main__textp {
+  font-size: 1.4em;
+  margin-left: -70px;
+}
+.main__img {
+  width: 50%;
+  position: relative;
+  z-index: 60;
+  height: 750px;
+}
+
+.section {
+  height: 100vh;
+  background-color: #111;
+}
+
+/*# sourceMappingURL=style.css.map */

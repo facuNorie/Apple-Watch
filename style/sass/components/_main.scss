@@ -1,0 +1,51 @@
+
+
+.main{
+    margin-top: -77px;
+    &__banner{
+        background-color: #111;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        &-svg{
+            position: absolute;
+            bottom: -60px;
+            left: 0;
+            width: 60%;
+        }
+    }
+    &__div-text{
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        svg{
+            position: absolute;
+            transform: rotate(270deg);
+            right: -490px;
+            
+        }
+
+    }
+    &__texth1{
+        font-size: 3em;
+        font-weight: 1000;
+    }
+    &__textp{
+        font-size: 1.4em;
+        margin-left: -70px;
+
+    }
+    &__img{
+        width: 50%;
+        position: relative;
+        z-index: 60;
+        height: 750px;
+    }
+}
