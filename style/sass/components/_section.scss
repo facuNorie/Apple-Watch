@@ -3,4 +3,37 @@
 .section{
     height: 100vh;
     background-color: #111;
+    &__div-card{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+}
+
+.card{
+    color: white;
+    background-color: lighten(#111,3);
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-grow: 1;
+    &__icon{
+        font-size: 4em;
+    }
+    &__title{
+        font-size: 2em;
+    }
+    &__text{
+        text-align: center;
+        opacity: .9;
+    }
 }

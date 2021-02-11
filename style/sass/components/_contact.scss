@@ -1,0 +1,11 @@
+
+
+.contact{
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    &__svg{
+        position: absolute;
+        top: 0;
+    }
+}

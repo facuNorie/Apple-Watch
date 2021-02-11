@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -37,6 +41,18 @@
   text-decoration: none;
   margin: 10px;
 }
+.header__link:nth-child(3) {
+  font-weight: 1000;
+  color: #111;
+  background-color: white;
+  border-radius: 9px;
+  padding: 5px 10px;
+}
+.header__link:nth-child(3):hover {
+  text-decoration: none;
+  background-color: #1eac1e;
+  color: #fff;
+}
 .header__link:hover {
   text-decoration: underline;
 }
@@ -55,7 +71,7 @@
 }
 .main__banner-svg {
   position: absolute;
-  bottom: -60px;
+  bottom: -65px;
   left: 0;
   width: 60%;
 }
@@ -91,6 +107,48 @@
 .section {
   height: 100vh;
   background-color: #111;
+}
+.section__div-card {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  color: white;
+  background-color: #191919;
+  height: 350px;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  flex-grow: 1;
+}
+.card__icon {
+  font-size: 4em;
+}
+.card__title {
+  font-size: 2em;
+}
+.card__text {
+  text-align: center;
+  opacity: 0.9;
+}
+
+.contact {
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+.contact__svg {
+  position: absolute;
+  top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

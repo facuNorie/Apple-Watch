@@ -1,4 +1,8 @@
 @use ".././tools/var" as var;
+
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
