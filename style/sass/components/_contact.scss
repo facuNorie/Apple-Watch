@@ -1,11 +1,68 @@
 
 
 .contact{
+    width: 100%;
     height: 100vh;
     background-color: white;
     position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     &__svg{
         position: absolute;
         top: 0;
+    }
+    &__img{
+        position: relative;
+        z-index: 10;
+        width: 50%;
+    }
+    &__svg2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 70%;
+    }
+}
+
+.form{
+    width: 50%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__input{
+        font-size: 1em;
+        background-color: darken(#fff, 2.1);
+        width: 45%;
+        height: 45px;
+        margin: 20px 10px;
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid #111;
+        border-radius: 0;
+        &:focus{
+            outline: none;
+        }
+        &:nth-child(3){
+            width: 93%;
+        }
+    }
+    &__button{
+        border: none;
+        background-color: #1eac1e;
+        color: #fff;
+        font-size: 1.3em;
+        padding: 15px;
+        border-radius: 7px;
+        cursor: pointer;
+        &:focus{
+            outline: none;
+        }
+        &:hover{
+            background-color: darken(#1eac1e,10);
+            
+        }
     }
 }
