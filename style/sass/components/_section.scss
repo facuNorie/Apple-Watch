@@ -1,8 +1,8 @@
-
+@use ".././tools/var" as var;
 
 .section{
     height: 100vh;
-    background-color: #111;
+    background-color: var.$colorBase;
     &__div-card{
         display: flex;
         height: 100%;
@@ -13,12 +13,12 @@
 }
 
 .card{
-    color: white;
-    background-color: lighten(#111,3);
+    color: #fff;
+    background-color: lighten(var.$colorBase,3);
     height: 350px;
     width: 300px;
     padding: 20px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
