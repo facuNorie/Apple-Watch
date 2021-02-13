@@ -87,7 +87,7 @@ html {
 .main__div-text svg {
   position: absolute;
   transform: rotate(270deg);
-  right: -490px;
+  right: -550px;
 }
 .main__texth1 {
   font-size: 3em;
@@ -205,6 +205,22 @@ html {
 }
 .form__button:hover {
   background-color: #168116;
+}
+
+@media screen and (min-width: 1700px) {
+  .main__div-text svg {
+    right: -700px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .main__div-text svg {
+    right: -420px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main__div-text svg {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
